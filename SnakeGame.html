@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./SnakeGame.css">
+    <script src="./SnakeGame.js" defer></script>
+</head>
+<body>
+
+    <img id="snake" src="./Assets/Images/snakegif_move.gif" alt="Snake">
+    <div id="bubble"></div>
+    <div id="buttonContainer">
+        <input type="button" value="<" class="buttons" id="left" onclick="left()">
+        <input type="button" value="^" class="buttons" id="up" onclick="up()">
+        <input type="button" value=">" class="buttons" id="right" onclick="right()">
+        <input type="button" value="v" class="buttons" id="down" onclick="down()">
+    </div>
+    
+</body>
+</html>
